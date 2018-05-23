@@ -1,0 +1,1 @@
+search '#define FILE_NUM' Å.c | perl -x "{0}" {"Parameters"}Exit {Status}#!/usr/local/bin/perlwhile (<>){	s/File "//;	s/\..* / /;	chop;	split;	$f[$_[1]]=$_[0];}print "resource 'STR#' (28100,preload,locked) \{ \{ \n";for ($i=1;$i<=$#f;$i++) {print qq=/* $i */ "$f[$i]",\n=;}print " \} \};\n";

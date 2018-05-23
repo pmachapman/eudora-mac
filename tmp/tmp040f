@@ -1,0 +1,1 @@
+if ($doMe==1) {if (m/\[/) {s/\[.*\]\s*//;s/\t/\t[624:47958] /;}else{s/\t/\t[624:47958] /};$doMe=2;} elsif ($doMe==0) {$doMe = m/^Description:/;}

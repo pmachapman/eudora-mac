@@ -1,0 +1,1 @@
+while(<>){if (/\t<enter description here>/){while (<STDIN>) {s/\[[0-9A-Za-z\?]*\] //;print;}}else{print;}}

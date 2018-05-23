@@ -1,0 +1,1 @@
+#define TARGET_API_MAC_CARBON 1#include <ConditionalMacros.h>/*//	I don't want to take out all of the GENERATINGCFMs right now#undef GENERATINGCFM#define GENERATINGCFM 1#undef PRAGMA_ALIGN_SUPPORTED#define PRAGMA_ALIGN_SUPPORTED 1#undef GENERATING68K#define GENERATING68K 0*/#pragma precompile_target  "PETEHeadersCarbon"#pragma once on#include "petepch.c"

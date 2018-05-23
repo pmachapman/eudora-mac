@@ -1,0 +1,17 @@
+## Export list for BayesSpamLib
+InitBayesSpamLib
+KillBayesSpamLib
+
+# New/read/write/Dispose
+NewSpamDict
+LoadSpamDict
+SaveSpamDict
+DisposeSpamDict
+IsSpamDictDirty
+
+# Training
+AddMessageToDict
+RemoveMessageFromDict
+
+# Score
+BayesScoreMessage
